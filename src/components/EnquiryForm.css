@@ -1,0 +1,56 @@
+.enquiry-form-container {
+    padding: 50px 0;
+  }
+  
+  .card {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+    border-color: #004494;
+  }
+  
+  .invalid-feedback {
+    display: none;
+  }
+  
+  .was-validated .form-control:invalid ~ .invalid-feedback {
+    display: block;
+  }
+  
+  .was-validated .form-control:valid ~ .invalid-feedback {
+    display: none;
+  }
+  
+  .card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

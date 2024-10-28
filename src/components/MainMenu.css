@@ -1,0 +1,273 @@
+/* General Styles */
+body {
+    background-color: #f4f6f9; /* Light grey for a clean background */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font for better readability */
+    color: #333; /* Darker text for better contrast */
+  }
+  
+  .dashboard {
+    min-height: 100vh;
+  }
+  
+  /* Top Navigation */
+  .top-navbar {
+    background-color: #4a90e2; /* Softer blue for a cleaner top bar */
+    color: white;
+  }
+  
+  .top-navbar .navbar-brand,
+  .top-navbar .nav-link {
+    color: black; /* Keep text white for contrast */
+  }
+  
+  .top-navbar .nav-link:hover {
+    color: #f8f9fa; /* Slight hover effect for interactivity */
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: #343a40; /* Dark grey for the sidebar */
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .sidebar .list-group-item {
+    background-color: transparent;
+    color: #d3d9de; /* Light grey text for better contrast against dark sidebar */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar .list-group-item button {
+    color: #d3d9de;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    padding-left: 15px;
+  }
+  
+  .sidebar .list-group-item:hover {
+    background-color: #4a4f55; /* Subtle hover effect */
+  }
+  
+  .submenu .list-group-item {
+    background-color: #495057;
+    margin-left: 15px;
+  }
+  
+  .submenu .list-group-item:hover {
+    background-color: #5a6268; /* Lighter hover for submenu */
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    padding: 20px;
+    background-color: #ffffff; /* White for content clarity */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Soft shadow for a modern look */
+  }
+  
+  .content-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Add gap between grid items */
+  }
+  
+  .content-item {
+    /* width: 22%; */
+    flex: 1 1 22%; /* Responsive flex item */
+    text-align: center;
+    padding: 20px;
+    background-color: #e9f7fe; /* Light blue for a softer feel */
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Show it's clickable */
+  }
+  
+  .content-item:hover {
+    transform: translateY(-5px); /* Elevate on hover for an interactive feel */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add subtle shadow effect */
+  }
+  
+  .content-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .content-item p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #495057; /* Dark grey text for a clean look */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ab7; /* Darken button on hover */
+  }
+  /* Global Technologies Header */
+.global-header {
+  background-color: #343a40; /* Dark background for header */
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.global-title {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #2ecc71; /* Highlighted green word "Global" */
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #357ab7;
+}
+
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.global-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-navbar {
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  background-color: #343a40;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar .list-group-item {
+  background-color: #343a40;
+  color: white;
+  border: none;
+}
+
+.sidebar .submenu {
+  padding-left: 15px;
+}
+
+.sidebar .btn-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.content-area {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.enquiry-form .form-group {
+  margin-bottom: 15px;
+}
+
+.enquiry-form .form-control {
+  width: 100%;
+  padding: 10px;
+}
+
+.enquiry-form button {
+  width: 100%;
+  padding: 10px;
+}
+.registration-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.registration-form .form-group {
+  margin-bottom: 15px;
+}
+
+.registration-form .form-control {
+  width: 100%;
+  padding: 10px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+}
+.enrolled-students-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.table td {
+  background-color: #fff;
+}
