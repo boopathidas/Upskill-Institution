@@ -17,7 +17,8 @@ class Enquiry(models.Model):
 
 
 class Registration(models.Model):
-    registration_number = models.CharField(max_length=10, unique=True, editable=False)  # Make this non-editable
+    registration_id = models.AutoField(primary_key=True)  # Auto-generated primary key
+    registration_number = models.CharField(max_length=10, unique=True, editable=False)  # Unique, non-editable field
     name = models.CharField(max_length=255)
     date_of_registration = models.DateField(auto_now_add=True)
     date_of_birth = models.DateField(null=True, blank=True)
