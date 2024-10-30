@@ -1,15 +1,15 @@
 CREATE DATABASE upskill_institution;
 use upskill_institution;
 
-SHOW TABLES;
+-- SHOW TABLES;
 
-SHOW COLUMNS FROM institution_registration;
-SHOW COLUMNS FROM institution_course;
-DROP TABLE institution_course;
+-- SHOW COLUMNS FROM institution_registration;
+-- SHOW COLUMNS FROM institution_course;
+-- DROP TABLE institution_course;
 
 
-SET SQL_SAFE_UPDATES = 0;
-SET SQL_SAFE_UPDATES = 1;
+-- SET SQL_SAFE_UPDATES = 0;
+-- SET SQL_SAFE_UPDATES = 1;
 
 
 
